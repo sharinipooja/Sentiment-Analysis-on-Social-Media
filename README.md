@@ -1,67 +1,74 @@
 # Sentiment-Analysis-on-Social-Media
-# 📝 Text Summarization using Transformers
+# 📱 Sentiment Analysis on Social Media
 
 ## Overview
 
-This project generates concise summaries from lengthy text using Hugging Face Transformers. The summarization model automatically extracts the important information while preserving the overall meaning of the original content.
+This project performs sentiment analysis on social media text by classifying user posts or tweets into Positive, Neutral, or Negative categories using Natural Language Processing (NLP). The application utilizes TextBlob for sentiment scoring and visualization of results.
 
 ---
 
 ## Features
 
-- Automatic text summarization
-- Transformer-based NLP model
-- User input support
-- Fast summary generation
-- Easy-to-use interface
+- Social media text preprocessing
+- Sentiment classification
+- Polarity score calculation
+- Positive, Neutral, and Negative prediction
+- Data visualization
+- Interactive user input
 
 ---
 
 ## Technologies Used
 
 - Python
-- Hugging Face Transformers
-- PyTorch
+- TextBlob
+- Pandas
+- Matplotlib
+- Tweepy
 - Google Colab
 
 ---
 
-## Workflow
+## Project Workflow
 
 ```
-Input Paragraph
-       │
-       ▼
-Preprocessing
-       │
-       ▼
-Transformer Model
-       │
-       ▼
-Summary Generation
+Twitter Dataset
+      │
+      ▼
+Data Cleaning
+      │
+      ▼
+Text Preprocessing
+      │
+      ▼
+TextBlob Sentiment Analysis
+      │
+      ▼
+Sentiment Classification
+      │
+      ▼
+Visualization
 ```
-
----
-
-## Model
-
-- Hugging Face Summarization Pipeline
 
 ---
 
 ## Output
 
-- Original Text
-- Generated Summary
+- Positive Sentiment 😊
+- Neutral Sentiment 😐
+- Negative Sentiment 😞
+- Sentiment Distribution Graph
 
 ---
 
 ## Future Enhancements
 
-- Support for PDF documents
-- Multi-language summarization
-- Web application
-- Custom-trained transformer model
+- BERT-based sentiment analysis
+- Real-time Twitter API integration
+- Multi-language support
+- Web dashboard deployment
 
 ---
+
+
 
